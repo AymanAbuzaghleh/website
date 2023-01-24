@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
 body {
   margin: 0;
   text-align: center;
